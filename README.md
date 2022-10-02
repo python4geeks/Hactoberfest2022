@@ -23,7 +23,7 @@
 
 ## 💢 All About this Repo :
 
-   * **This [repository](https://github.com/Rakeshgombi/Hactoberfest-2022) is for beginners who want to be a part of open source community.**
+   * **This [repository](https://github.com/python4geeks/Hactoberfest-2022) is for beginners who want to be a part of open source community.**
    * **The best way to learn programming is by practicing !**
    * **This repo contains programs in c, cpp, python, Java programming languages along with DSA.**
    * **You are advised to take references from these examples and try them on your own.**   
@@ -66,8 +66,8 @@
 <table>
 	<tr>
 		 <td>
-<a href="https://github.com/Rakeshgombi/Hactoberfest-2022/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=Rakeshgombi/Hactoberfest-2022" />
+<a href="https://github.com/python4geeks/Hactoberfest-2022/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=python4geeks/Hactoberfest-2022" />
 </a>
        		</td>
 	</tr>
@@ -75,7 +75,7 @@
 
 **Made with ❤ by [contributors-img](https://contrib.rocks).**
 
-**◻ Project Maintainer : Rakesh Gombi [LinkedIn](https://www.linkedin.com/in/rakesh-gombi-8b8412170/) | [GitHub](https://github.com/Rakeshgombi)**
+**◻ Project Maintainer : [GitHub](https://github.com/python4geeks/)**
 
 
 ----------------------------------------------------------

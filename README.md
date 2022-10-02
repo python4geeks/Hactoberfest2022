@@ -26,7 +26,8 @@
    * **This [repository](https://github.com/Rakeshgombi/Hactoberfest-2022) is for beginners who want to be a part of open source community.**
    * **The best way to learn programming is by practicing !**
    * **This repo contains programs in c, cpp, python, Java programming languages along with DSA.**
-   * **You are advised to take references from these examples and try them on your own.**
+   * **You are advised to take references from these examples and try them on your own.**   
+   * **If you dont find any folder related to your topic, kindly create one and continue with your contributions**
 
  <br>
 

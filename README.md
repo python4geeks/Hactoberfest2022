@@ -1,29 +1,84 @@
-# Hactoberfest 2022
+# <p align="center"> Hacktoberfest 2022 💕</p>
 
-![logo](images/hactoberfest2022.jpg?raw=true "logo")
-#### Hacktoberfest encourages participation in the open source community, which grows bigger every year. Complete the 2022 challenge and earn a limited edition T-shirt.
 
-### How to participate?
-- Star this repository 
-- Fork this repository
-- create or upload file
-- commit the file
-- open new pull request
-- ## NOTE: Please do not modify others contributions 🙏🏼
+<h4 align=center> Hacktoberfest is the celebration of Open Source Software sponsored by Digital Ocean, GitHub, Intel & Dev.</h4>
 
-## FAQ
+<h4 align=center> This repository aims to help beginners 🤔 with their first successful Pull Request and Open Source Contribution !</h4>
 
-- #### How do I participate for Hackerearth-20212?
-    visit https://hacktoberfest.digitalocean.com/ and register with github or gitlab account.
 
-- #### I signed up for Hacktoberfest mid-October. Will pull requests that I created earlier in October count?
-    Yes, all pull requests created between Oct 1 and Oct 31 will count, regardless of when you register for Hacktoberfest. 
+-------------------------------------------------------------------------------------------------------------------------------------------
 
-- #### When will my pull request gets merged?
+<img src="./images/hactoberfest2022.jpg" width="100%">
 
-    Our team will verify the PR and merge them as soon as possible
+-------------------------------------------------------------------------------------------------------------------------------------------
 
-- #### How many pull request I have to make?
-    As per organizers mentioned, You have to make minimum of 4 pull requests
-    
-- #### Visit https://hacktoberfest.com/participation/ for more details about this event.
+ <br>
+
+## ⏳ Steps to Follow :
+
+   - [X] **Register for [Hacktoberfest](https://hacktoberfest.digitalocean.com/) and get started to make your first PR.**
+   - [X] **Make 4 valid PRs during the period of (1st - 31st) October to earn cool swags.**
+
+ <br>
+
+## 💢 All About this Repo :
+
+   * **This [repository](https://github.com/Sniper7sumit/Hacktoberfest2021) is for beginners who want to be a part of open source community.**
+   * **The best way to learn programming is by practicing !**
+   * **This repo contains programs in c, cpp, python, Java programming languages along with DSA.**
+   * **You are advised to take references from these examples and try them on your own.**
+
+ <br>
+
+## ❗ Contribution Rules :
+
+   * **You can add programs in any programming languages, but your program must be different or unique.**
+   * **Contribute any algorithm, data-structure implementation or your favourite project.**
+   * **The pull requests must contain commits made by yourself.**
+   * **Repeated codes will not be merged.**
+
+ <br>
+
+## 🌎 How to contribute to this Repository ?
+
+```
+   1. Fork the repository
+
+   2. Clone the forked repository to your local machine
+
+   3. Change the present directory
+
+   4. Add your files and projects
+
+   5. Make a new branch and make changes in the repository with the new branch
+
+   6. Push the changes
+
+   7. Create a Pull Request
+
+   8. Keep patience for the project maintainer to review and merge the PR
+
+```
+
+## <p align="center"> 🏆 Contributors </p>
+
+<table>
+	<tr>
+		 <td>
+<a href="https://github.com/Rakeshgombi/Hactoberfest-2022/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=Rakeshgombi/Hactoberfest-2022" />
+</a>
+       		</td>
+	</tr>
+</table>
+
+**Made with ❤ by [contributors-img](https://contrib.rocks).**
+
+**◻ Project Maintainer : Rakesh Gombi [LinkedIn](https://www.linkedin.com/in/rakesh-gombi-8b8412170/) | [GitHub](https://github.com/Rakeshgombi)**
+
+
+----------------------------------------------------------
+
+### <p align="center"> Show some ❤ by hitting the ⭐ button </p>
+
+----------------------------------------------------------

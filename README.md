@@ -13,8 +13,8 @@
 
 ## FAQ
 
-- #### How do I participate for Hackerearth-2021?
-    visit https://hacktoberfest.digitalocean.com/ register with github or gitlab account.
+- #### How do I participate for Hackerearth-20212?
+    visit https://hacktoberfest.digitalocean.com/ and register with github or gitlab account.
 
 - #### I signed up for Hacktoberfest mid-October. Will pull requests that I created earlier in October count?
     Yes, all pull requests created between Oct 1 and Oct 31 will count, regardless of when you register for Hacktoberfest. 

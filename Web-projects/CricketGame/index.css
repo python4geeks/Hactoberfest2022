@@ -1,0 +1,32 @@
+#r1{
+	color: blue;
+}
+#r2{
+	font-size: 2em;
+}
+#r3{
+	font-weight:700;
+}
+#r4{
+	font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+#r5{
+	rotate: 180deg;
+}
+#r6{
+	background-color: brown;
+}
+#r7{
+	text-decoration:line-through;
+}
+#r8{
+	text-align: center;
+}
+#r9{
+	text-shadow: blue;
+}
+#r10{
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	color: darkblue;
+	font-size: 50px;
+}

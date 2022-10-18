@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSIT DEPARTMENT</title>
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
+
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        .logo {
+            width: 30%;
+            display: flex;
+            justify-content: center;
+            height: 30%;
+        }
+
+        .logo img {
+            width: 25%;
+            border: 2px solid rgb(12, 11, 11);
+            border-radius: 200px;
+            margin: 2px;
+        }
+
+        .navbar {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: sticky;
+            top: 0px;
+            cursor: pointer;
+
+        }
+
+        .nav-list {
+
+            width: 70%;
+            /************************************/
+            display: flex;
+            align-items: center;
+
+        }
+
+        .nav-list li {
+            list-style: none;
+            padding: 20px;
+
+        }
+
+        .nav-list li a {
+            text-decoration: none;
+            color: aliceblue;
+            font-size: 20px;
+        }
+
+        .rightnav {
+            width: 30%;
+            /* ****************************************** */
+            text-align: right;
+            padding: 0px 24px;
+        }
+
+        #search {
+            padding: 6px;
+            font-size: 16px;
+            border: 2px solid black;
+            border-radius: 10px;
+
+        }
+
+        .background {
+            background: rgba(0, 0, 0, 0.8) url("https://images.static-collegedunia.com/public/college_data/images/appImage/16250272251588664341AIPERBuilding.jpg?tr=c-force");
+            background-size: cover;
+            background-blend-mode: darken;
+        }
+
+        .box-main {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            max-width: 50%;
+            margin: auto;
+            height: 100vh;
+
+        }
+
+        .firsthalf {
+            width: 80%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        .secondhalf img {
+            width: 70%;
+            border-radius: 150px;
+            border: 4px solid wheat;
+            display: block;
+            margin: auto;
+            height: 200px;
+
+
+        }
+
+        .text-big {
+            font-size: 40px;
+        }
+
+        .text-small {
+            font-size: 20px;
+        }
+
+        .btn {
+            padding: 8px 20px;
+            margin: 7px;
+            border: 2px solid white;
+            border-radius: 8px;
+            background: none;
+            color: white;
+            cursor: pointer;
+        }
+
+        .btn-sm {
+            padding: 6px 10px;
+            vertical-align: middle;
+        }
+
+        .section {
+
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            max-width: 80%;
+            margin: auto;
+            font-family: 'Ubuntu', sans-serif;
+        }
+
+        .left {
+            flex-direction: row-reverse;
+        }
+
+        .paras {
+            padding: 0px 65px;
+
+        }
+
+        .tumbnail {
+            border: 4px solid black;
+            border-radius: 10px;
+            padding: 0px 0px;
+        }
+
+        .sectiontag {
+            padding: 15px 0px;
+        }
+
+        .contact {
+            background-color: rgb(163, 156, 145);
+            height: 450px;
+        }
+
+        .text-advance {
+            text-align: center;
+            padding: 20px;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+
+        .form {
+            max-width: 62%;
+            margin: auto;
+        }
+
+        .form-input {
+            width: 100%;
+            font-size: 19px;
+            border-radius: 5px;
+            border: 2px solid black;
+            padding: 5px;
+            margin: 10px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            color: aliceblue;
+        }
+
+        #myBtn {
+            display: none;
+            position: fixed;
+            bottom: 20px;
+            right: 30px;
+            z-index: 99;
+            font-size: 18px;
+            border: none;
+            outline: none;
+
+            cursor: pointer;
+            padding: 15px;
+            border-radius: 50px;
+        }
+
+        #myBtn:hover {
+            background-color: #555;
+        }
+
+        @media only screen and(max-width: 1404px) {
+            .nav-list {
+                flex-direction: column;
+            }
+
+            .navbar {
+                flex-direction: column;
+                transition: all 0.3s ease-out;
+                height: 447px;
+            }
+
+            .right-nav {
+                text-align: center;
+            }
+
+            #search {
+                width: 100%;
+            }
+
+            .burger {
+                display: block;
+            }
+
+            .h-nav {
+                height: 22px;
+            }
+
+            .v-class {
+                opacity: 0;
+            }
+
+            .box-main {
+                flex-direction: column-reverse;
+                max-width: 100%;
+            }
+
+            .section {
+                flex-direction: column-reverse;
+            }
+
+            .paras {
+                padding: 0px;
+            }
+
+        }
+
+        .burger {
+            display: none;
+            position: absolute;
+            cursor: pointer;
+            right: 5%;
+            top: 15px;
+        }
+
+        .line {
+            width: 33px;
+            background-color: aliceblue;
+            height: 4px;
+            margin: 5px 3px;
+        }
+    </style>
+
+</head>
+
+<body>
+    <button onclick="topFunction()" id="myBtn" title="Go to top"><i style='font-size:24px'
+            class='fas'>&#xf35b;</i></button>
+
+    <nav class="navbar background h-nav">
+        <ul class="nav-list v-class">
+            <div class="logo"><img src="https://www.careerindia.com/img/2012/10/11-acropolis.jpg" alt="logo"></div>
+            <li><a href="#Home">Home</a></li>
+            <li><a href="#Services">Services</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#Contact Us">Contact Us</a></li>
+        </ul>
+        <div class="rightnav v-class">
+            <input type="text" name="search" id="search">
+            <button class="btn btn-sm">Search</button>
+        </div>
+        <div class="burger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+    </nav>
+
+    <section class="background first-section">
+        <div class="box-main">
+            <div class="firsthalf">
+                <p class="text-big">The future of education is here</p>
+                <p class="text-small">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sapiente, voluptas?</p>
+                <div class="buttons">
+                    <button class="btn">Subscribe</button>
+                    <button class="btn">Watch Video</button>
+
+                </div>
+            </div>
+            <div class="secondhalf">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3O3U8T2cwWcuBA0izc2XXVU-EKH84sRxsDg&usqp=CAU"
+                    alt="college image">
+
+            </div>
+        </div>
+    </section>
+    <section class="section">
+        <div class="paras">
+            <p class="sectiontag text-big">WELCOME</p>
+            <p class="section-sub-tag text-small">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero debitis
+                soluta, omnis animi beatae iure sunt temporibus. Illo sint quasi eligendi enim tenetur tempora hic
+                minima earum sit? Autem, reprehenderit?
+                Similique ducimus nulla reiciendis ex ad mollitia numquam doloremque itaque sed voluptatem, sequi
+                possimus odit, laudantium explicabo iusto animi placeat architecto illum, voluptas dolor quam? Esse
+                atque architecto blanditiis veniam.
+                Possimus enim sint incidunt, unde fugiat adipisci aliquid ab labore dolores amet rem quidem nemo
+                mollitia dolore. Consequatur, quo maiores? Quia illum minus pariatur consequuntur aliquid quidem quam
+                doloribus quisquam.
+                Mollitia voluptates eaque corporis animi magnam odio aliquid vero quia ex ducimus nobis doloribus
+                tempore dolor sequi delectus, pariatur earum autem quod ea veritatis. Magnam tenetur necessitatibus
+                sequi dicta deleniti?
+                Reprehenderit quaerat tempora ea nisi dolorum. Corporis totam dignissimos soluta deserunt commodi beatae
+                quidem nam autem voluptate reprehenderit consequuntur officiis, odio veniam explicabo aliquam corrupti
+                laborum quibusdam? Ex, facilis error.
+                Facilis doloremque consectetur amet? Corporis, obcaecati id? Iure voluptatem, optio illum, nobis
+                repudiandae magni consequatur excepturi magnam quia officia
+            </p>
+        </div>
+        <div class="tumbnail">
+            <img src="https://source.unsplash.com/user/erondu/200x200" class="imgfluid" alt="image">
+        </div>
+    </section>
+
+    <section class="section left">
+        <div class="paras">
+            <p class="sectiontag text-big">ABOUT Us</p>
+            <p class="section-sub-tag text-small">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero debitis
+                soluta, omnis animi beatae iure sunt temporibus. Illo sint quasi eligendi enim tenetur tempora hic
+                minima earum sit? Autem, reprehenderit?
+                Similique ducimus nulla reiciendis ex ad mollitia numquam doloremque itaque sed voluptatem, sequi
+                possimus odit, laudantium explicabo iusto animi placeat architecto illum, voluptas dolor quam? Esse
+                atque architecto blanditiis veniam.
+                Possimus enim sint incidunt, unde fugiat adipisci aliquid ab labore dolores amet rem quidem nemo
+                mollitia dolore. Consequatur, quo maiores? Quia illum minus pariatur consequuntur aliquid quidem quam
+                doloribus quisquam.
+                Mollitia voluptates eaque corporis animi magnam odio aliquid vero quia ex ducimus nobis doloribus
+                tempore dolor sequi delectus, pariatur earum autem quod ea veritatis. Magnam tenetur necessitatibus
+                sequi dicta deleniti?
+                Reprehenderit quaerat tempora ea nisi dolorum. Corporis totam dignissimos soluta deserunt commodi beatae
+                quidem nam autem voluptate reprehenderit consequuntur officiis, odio veniam explicabo aliquam corrupti
+                laborum quibusdam? Ex,
+            </p>
+        </div>
+        <div class="tumbnail">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3O3U8T2cwWcuBA0izc2XXVU-EKH84sRxsDg&usqp=CAU"
+                class="imgfluid" alt="image">
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="paras">
+            <p class="sectiontag text-big">LET'S GROW TOGETHER</p>
+            <p class="section-sub-tag text-small">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero debitis
+                soluta, omnis animi beatae iure sunt temporibus. Illo sint quasi eligendi enim tenetur tempora hic
+                minima earum sit? Autem, reprehenderit?
+                Similique ducimus nulla reiciendis ex ad mollitia numquam doloremque itaque sed voluptatem, sequi
+                possimus odit, laudantium explicabo iusto animi placeat architecto illum, voluptas dolor quam? Esse
+                atque architecto blanditiis veniam.
+                Possimus enim sint incidunt, unde fugiat adipisci aliquid ab labore dolores amet rem quidem nemo
+                mollitia dolore. Consequatur, quo maiores? Quia illum minus pariatur consequuntur aliquid quidem quam
+                doloribus quisquam.
+                Mollitia voluptates eaque corporis animi magnam odio aliquid vero quia ex ducimus nobis doloribus
+                tempore dolor sequi delectus, pariatur earum autem quod ea veritatis. Magnam tenetur necessitatibus
+
+            </p>
+        </div>
+        <div class="tumbnail">
+            <img src="https://source.unsplash.com/200x200/?javascript" class="imgfluid" alt="image">
+        </div>
+    </section>
+    <hr>
+    <section class="contact">
+        <h2 class="text-advance id=" contact">Contact Us</h2>
+        <div class="form">
+            <input class="form-input" type="text" name="name" id="name" placeholder="enter your name">
+            <input class="form-input" type="text" name="name" id="name" placeholder="enter your phone">
+            <input class="form-input" type="text" name="name" id="name" placeholder="enter your email">
+            <textarea class="form-input" name="text" id="text" cols="30" rows="5"
+                placeholer="Ellaborate your concern"></textarea>
+            <button class="btn">Submit</button>
+
+        </div>
+    </section>
+    <footer class="background">
+        <p>Copyright &copy; All rights reserved</p>
+    </footer>
+    <script>
+        burger = document.querySelector('.burger');
+        navbar = document.querySelector('.navbar');
+        navlist = document.querySelector('.nav-list');
+        rightnav = document.querySelector('.rightnav');
+
+        burger.addEventListener('click', () => {
+            rightnav.classList.toggle('v-class-resp');
+            navList.classList.toggle('v-class-resp');
+            navbar.classList.toggle('h-nav-resp');
+
+        })
+
+        //Get the button
+        var mybutton = document.getElementById("myBtn");
+
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function () { scrollFunction() };
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                mybutton.style.display = "block";
+            } else {
+                mybutton.style.display = "none";
+            }
+        }
+
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
+
+    </script>
+</body>
+
+
+</html>

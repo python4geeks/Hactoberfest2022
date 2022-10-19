@@ -1,0 +1,28 @@
+# include <iostream>
+using namespace std;
+int main() {
+  char cal;
+  float num1, num2;
+  cout << "Enter operator: +, -, *, /: ";
+  cin >> cal;
+  cout << "Enter two operands: ";
+  cin >> num1 >> num2;
+  switch(cal) {
+    case '+':
+      cout << num1 << " + " << num2 << " = " << num1 + num2;
+      break;
+    case '-':
+      cout << num1 << " - " << num2 << " = " << num1 - num2;
+      break;
+    case '*':
+      cout << num1 << " * " << num2 << " = " << num1 * num2;
+      break;
+    case '/':
+      cout << num1 << " / " << num2 << " = " << num1 / num2;
+      break;
+      default:
+      cout << "Invalid error";
+      break;
+  }
+  return 0;
+}
